@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to my application." });
+  res.json({ message: "Hello World!" });
 });
 
 require("./app/routes/tutorial.routes.js")(app);
